@@ -2,7 +2,7 @@ function spotEachRebel(rebels) {
   let spottedRebelCalls = []
 
   if (rebels) {
-    spottedRebelCalls.push('Look! Rebel scum!')
+    spottedRebelCalls.push('Look! Rebel scum!', 'Look! Rebel scum!', 'Look! Rebel scum!')
   }
 
   return spottedRebelCalls
@@ -23,7 +23,7 @@ function seeRebelsEscape(rebels) {
 function shootAtNothing() {
   let shotsAtNothing = []
 
-  for (let i = 1; i < 4; i++) {
+  for (let i = 1; i < 5; i++) {
     shotsAtNothing.push('pew')
   }
 
